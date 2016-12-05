@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingEnd="@dimen/default_left_right_padding"
+    android:paddingLeft="@dimen/default_left_right_padding"
+    android:paddingRight="@dimen/default_left_right_padding"
+    android:paddingStart="@dimen/default_left_right_padding">
+
+    <TextView
+        android:id="@+id/tvSettingsValue"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:fontFamily="sans-serif"
+        android:gravity="start|center"
+        android:text="@string/privacy_button_title"
+        android:textColor="@color/app_dark_text_color"
+        android:textSize="16sp"/>
+
+</LinearLayout>

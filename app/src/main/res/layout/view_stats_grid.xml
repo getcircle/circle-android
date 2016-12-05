@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:background="@color/app_view_background_color"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawSelectorOnTop="true"
+        android:scrollbars="none"
+        android:divider="@color/list_divider_color"
+        android:dividerHeight="1dp"
+        android:id="@+id/lvSearchCategories" />
+
+</LinearLayout>

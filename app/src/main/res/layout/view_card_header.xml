@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/default_card_header_height"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="1dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:orientation="horizontal"
+        android:paddingEnd="16dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingStart="16dp">
+
+        <ImageView
+            android:id="@+id/ivCardHeaderImage"
+            android:layout_width="wrap_content"
+            android:layout_height="18dp"
+            android:layout_gravity="center"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:scaleType="fitCenter"
+            tools:src="@drawable/ic_feedskills"/>
+
+        <TextView
+            android:id="@+id/tvCardTitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="0.9"
+            android:fontFamily="sans-serif"
+            android:paddingEnd="10dp"
+            android:paddingRight="10dp"
+            android:text="@string/sample_card_header_title"
+            android:textColor="@color/app_dark_text_color"
+            android:textSize="18sp"/>
+
+        <Button
+            android:id="@+id/btnCardHeaderEdit"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical|end"
+            android:text="@string/generic_edit_button_title"
+            android:textAllCaps="true"
+            android:textColor="@color/app_tint_color"/>
+
+        <TextView
+            android:id="@+id/tvCardContentCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/app_tint_color"
+            tools:text="@string/sample_card_header_count"/>
+
+    </LinearLayout>
+
+</merge>

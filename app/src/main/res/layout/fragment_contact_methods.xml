@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/app_tint_color"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="@string/title_contact_info_dialog"
+        android:textAllCaps="true"
+        android:textColor="@color/app_light_text_color"/>
+
+    <ListView
+        android:id="@+id/lvContactMethods"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@color/list_divider_color"
+        android:dividerHeight="1dp"
+        android:drawSelectorOnTop="true"/>
+
+</LinearLayout>

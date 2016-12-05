@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/profiles_group_view_row_height"
+    android:background="@android:color/white"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+
+    <com.rhlabs.circle.views.CircleImageView
+        android:id="@+id/ivProfileImage1"
+        android:layout_width="@dimen/profiles_group_images_width_height"
+        android:layout_height="@dimen/profiles_group_images_width_height"
+        android:layout_marginEnd="@dimen/profile_image_interitem_margin"
+        android:layout_marginLeft="@dimen/card_content_default_left_margin"
+        android:layout_marginRight="@dimen/profile_image_interitem_margin"
+        android:layout_marginStart="@dimen/card_content_default_left_margin"/>
+
+    <com.rhlabs.circle.views.CircleImageView
+        android:id="@+id/ivProfileImage2"
+        android:layout_width="@dimen/profiles_group_images_width_height"
+        android:layout_height="@dimen/profiles_group_images_width_height"
+        android:layout_marginEnd="@dimen/profile_image_interitem_margin"
+        android:layout_marginLeft="@dimen/profile_image_interitem_margin"
+        android:layout_marginRight="@dimen/profile_image_interitem_margin"
+        android:layout_marginStart="@dimen/profile_image_interitem_margin"/>
+
+    <com.rhlabs.circle.views.CircleImageView
+        android:id="@+id/ivProfileImage3"
+        android:layout_width="@dimen/profiles_group_images_width_height"
+        android:layout_height="@dimen/profiles_group_images_width_height"
+        android:layout_marginEnd="@dimen/profile_image_interitem_margin"
+        android:layout_marginLeft="@dimen/profile_image_interitem_margin"
+        android:layout_marginRight="@dimen/profile_image_interitem_margin"
+        android:layout_marginStart="@dimen/profile_image_interitem_margin"/>
+
+    <com.rhlabs.circle.views.CircleImageView
+        android:id="@+id/ivProfileImage4"
+        android:layout_width="@dimen/profiles_group_images_width_height"
+        android:layout_height="@dimen/profiles_group_images_width_height"
+        android:layout_marginEnd="@dimen/profile_image_interitem_margin"
+        android:layout_marginLeft="@dimen/profile_image_interitem_margin"
+        android:layout_marginRight="@dimen/profile_image_interitem_margin"
+        android:layout_marginStart="@dimen/profile_image_interitem_margin"/>
+
+</LinearLayout>

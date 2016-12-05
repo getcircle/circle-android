@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="app_ui_background_color">#2f373e</color>
+    <color name="app_ui_dark_background_color">#262C32</color>
+    <color name="app_dark_text_color">#262626</color>
+    <color name="app_light_text_color">#fff</color>
+    <color name="app_tint_color">#00C9FF</color>
+    <color name="app_view_background_color">#f0f0f0</color>
+    <color name="app_dark_text_color_secondary_info">#707070</color>
+    <color name="list_divider_color">#DEDEDE</color>
+
+</resources>

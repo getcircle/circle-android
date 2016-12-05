@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:background="?attr/selectableItemBackgroundBorderless"
+              android:padding="10dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@color/app_dark_text_color"
+        android:id="@+id/tvAddressStreet"
+        tools:text="319-A Primrose Road"
+        android:layout_gravity="center"
+        android:paddingBottom="5dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@color/app_dark_text_color"
+        android:id="@+id/tvAddressCityState"
+        tools:text="Burlingame, CA-94010"
+        android:layout_gravity="center" />
+
+</LinearLayout>

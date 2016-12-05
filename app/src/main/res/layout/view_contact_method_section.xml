@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="10dp"
+              android:orientation="horizontal"
+              android:padding="@dimen/default_left_right_padding">
+
+    <ImageView
+        android:id="@+id/ivContactMethodSectionImage"
+        android:layout_width="wrap_content"
+        android:layout_height="16dp"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_call"/>
+
+    <TextView
+        android:id="@+id/tvContactMethodSectionTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="5dp"
+        android:layout_marginStart="5dp"
+        android:fontFamily="sans-serif"
+        android:textAllCaps="true"
+        android:textColor="@color/app_dark_text_color"
+        android:textSize="14sp"
+        tools:text="Call"/>
+
+</LinearLayout>

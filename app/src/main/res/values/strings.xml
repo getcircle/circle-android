@@ -1,0 +1,124 @@
+<resources>
+    <string name="app_name">circle</string>
+
+    <string name="title_home">Home</string>
+    <string name="title_company">Company</string>
+    <string name="title_profile">Profile</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example">Example action</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="app_tag_line">Know the people you work with</string>
+    <string name="sign_in_with_google">Sign in with Google</string>
+    <string name="sample_card_header_title">Peers</string>
+    <string name="sample_card_header_count">All 3</string>
+    <string name="default_profile_name">Ravi Rani</string>
+    <string name="default_profile_secondary_text">Co-founder and CEO</string>
+    <string name="actionSignOut">Sign out</string>
+
+    <string name="one_location_count_label_text">1 Office</string>
+    <string name="multiple_locations_count_label_text">%1$d offices worldwide</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="default_tag_name">Tag Name</string>
+    <string name="default_team_name_letter">T</string>
+    <string name="default_location_name">San Francisco</string>
+    <string name="default_location_count">3000</string>
+    <string name="group_members_section_title">Members</string>
+    <string name="teams_section_title">Teams</string>
+    <string name="location_teams_section_title">Office Teams</string>
+    <string name="title_activity_detail">DetailActivity</string>
+    <string name="title_activity_overview">OverviewActivity</string>
+    <string name="title_activity_profiles_overview">ProfilesOverviewActivity</string>
+    <string name="title_activity_teams_overview">TeamsOverviewActivity</string>
+    <string name="title_activity_tags_overview">TagsOverviewActivity</string>
+    <string name="location_profile_count_plural_title">People</string>
+    <string name="profile_section_title_skills">Expertise</string>
+    <string name="profile_section_title_interests">Interests</string>
+    <string name="profile_section_title_info">Info</string>
+    <string name="hire_date_label">Hire Date</string>
+    <string name="birth_date_label">Birthday</string>
+    <string name="number_of_people_plural">%1$d People</string>
+    <string name="number_of_people_singular">1 Person</string>
+    <string name="profile_section_title_manager_team"><![CDATA[Manager & Team]]></string>
+    <string name="profile_section_title_office">Office</string>
+    <string name="verify_phone_instruction_text">Verify your cell phone number for your team to contact you</string>
+    <string name="phone_number_hint_text">Phone Number</string>
+    <string name="phone_verification_code_hint_text">Code</string>
+    <string name="send_code_button_text">Send Code</string>
+    <string name="verify_phone_button_text">Verify Phone</string>
+    <string name="resend_button_text">resend</string>
+    <string name="verify_phone_title">Verify Phone</string>
+    <string name="verify_phone_send_code_button_title">Send Code</string>
+    <string name="verify_phone_verify_code_button_title">Verify</string>
+    <string name="profile_image_upload_instruction_text">Add your best recent picture to help your co-workers easily find you</string>
+    <string name="generic_next_button_title">Next</string>
+    <string name="choose_existing_picture_item_title">Choose existing</string>
+    <string name="take_new_picture_item_title">Take picture</string>
+    <string name="edit_about_instruction_text">Tell your co-workers a bit about yourself</string>
+    <string name="bio_field_hint_text">Bio</string>
+    <string name="nickname_field_hint_text">Nickname</string>
+    <string name="edit_about_info_view_title">About</string>
+    <string name="generic_done_button_title">Done</string>
+    <string name="title_activity_homeless">HomelessActivity</string>
+
+    <string name="private_beta_info_text">circle is currently available only to employees at participating companies! You can request access below or try logging into a different account.</string>
+    <string name="request_access_confirmation_text">Great! We will notify you when your account is ready to access. Thanks!</string>
+    <string name="request_access_button_text">Request Access</string>
+    <string name="try_again_button_title">Try Again</string>
+    <string name="waitlist_info_text">circle is currently available only to employees at participating companies! You are on our list and we will notify you when your account is ready. Thanks!</string>
+    <string name="sign_out">Sign out</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="app_label">circle</string>
+    <string name="search_hint">Search people, teams, and locations</string>
+    <string name="title_activity_search">SearchActivity</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_search_title">Search</string>
+    <string name="search_hint_text">Search people, teams, and locations</string>
+    <string name="groups_plural_title">Groups</string>
+    <string name="all_groups_title">All Groups</string>
+    <string name="message_no_groups">No groups found!</string>
+    <string name="group_owners_section_title">Owners</string>
+    <string name="manager_section_title">Manager</string>
+    <string name="group_description_title">Description</string>
+    <string name="generic_email_label">Email</string>
+    <string name="group_access_request_pending">Access Requested. Pending approval.</string>
+    <string name="join_group_button_title">Join group</string>
+    <string name="request_to_join_group_button_title">Request to join</string>
+    <string name="group_join_confirmation">Great! You are now a member of the group.</string>
+    <string name="group_access_request_submitted">Your request to join this group was sent to the group admins.</string>
+    <string name="approve_button_title">Approve</string>
+    <string name="deny_button_title">Deny</string>
+    <string name="nav_item_title_home">Home</string>
+    <string name="nav_item_title_company">Company</string>
+    <string name="nav_item_title_settings">Settings</string>
+    <string name="title_contact_info_dialog">Contact Info</string>
+    <string name="generic_edit_button_title">Edit</string>
+    <string name="about_card_title">About</string>
+    <string name="generic_cancel_button_title">Cancel</string>
+    <string name="tos_button_title">Terms of Service</string>
+    <string name="privacy_button_title">Privacy Policy</string>
+    <string name="legal_section_title">Legal</string>
+    <string name="account_section_title">Account</string>
+    <string name="attributions_button_title">Attributions</string>
+    <string name="title_activity_webview">Loading…</string>
+    <string name="disconnect_account">Disconnect and Sign out</string>
+    <string name="title_activity_contactmethods">Edit Contact Preferences</string>
+    <string name="edit_contact_preferences">Edit Contact Preferences</string>
+    <string name="phone_number_section_title">Call</string>
+    <string name="cell_phone_field_hint">Cell Phone</string>
+    <string name="work_phone_field_hint">Work Phone</string>
+    <string name="work_email_field_hint">Work Email</string>
+    <string name="personal_email_field_hint">Personal Email</string>
+    <string name="emails_section_title">Emails</string>
+    <string name="view_profile_menu_item">View Profile</string>
+    <string name="powered_by_text">Powered by Circle</string>
+    <string name="search_category_people">People</string>
+    <string name="number_of_teams_singular">1 Team</string>
+    <string name="number_of_teams_plural">%1$d Teams</string>
+
+</resources>

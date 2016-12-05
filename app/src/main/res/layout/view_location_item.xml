@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout android:id="@+id/llLocationRow"
+              xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="@dimen/location_item_row_height"
+              android:background="@android:color/white"
+              android:gravity="center_vertical"
+              android:padding="10dp"
+              android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvLocationName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:text="@string/default_location_name"
+            android:textColor="@color/app_dark_text_color"
+            android:layout_weight="0.7"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/tvLocationSecondaryInfo"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:paddingTop="4dp"
+            android:text="@string/default_location_count"
+            android:layout_weight="0.2"
+            android:gravity="end"
+            android:textColor="@color/app_dark_text_color_secondary_info"
+            android:textSize="15sp"/>
+
+</LinearLayout>

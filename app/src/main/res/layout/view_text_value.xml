@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView
+    android:id="@+id/tvTextValue"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:textColor="@color/app_dark_text_color"
+    tools:text="This is a sample text value"
+    android:fontFamily="sans-serif"
+    android:textSize="15sp"
+    android:lineSpacingExtra="8sp"
+    android:lineSpacingMultiplier="1"
+    android:background="@android:color/white"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"/>

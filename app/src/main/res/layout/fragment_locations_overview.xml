@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5">
+
+        <fragment
+            android:id="@+id/locationsMap"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+        
+        <TextView
+            android:id="@+id/tvLocationsCount"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/all_locations_text_label_height"
+            android:layout_alignBottom="@+id/locationsMap"
+            android:background="#99000000"
+            android:textColor="@android:color/white"
+            android:gravity="center"
+            android:ellipsize="end"
+            tools:text="8 Offices Worldwide" />
+
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/lvLocations"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"/>
+
+    <ProgressBar
+        android:id="@+id/pbProgressBar"
+        style="?android:attr/progressBarStyleSmall"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"/>
+
+</LinearLayout>

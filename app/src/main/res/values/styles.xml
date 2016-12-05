@@ -1,0 +1,16 @@
+<resources>
+
+    <style name="Theme.Circle" parent="Base.Theme.Circle">
+    </style>
+
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Circle" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/app_ui_background_color</item>
+        <item name="colorPrimaryDark">@color/app_ui_dark_background_color</item>
+        <item name="colorAccent">@color/app_tint_color</item>
+        <item name="android:colorButtonNormal">@android:color/white</item>
+        <item name="android:windowBackground">@color/app_view_background_color</item>
+    </style>
+
+</resources>

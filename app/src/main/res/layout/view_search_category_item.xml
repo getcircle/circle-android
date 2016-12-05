@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/search_category_item_row_height"
+    android:layout_centerInParent="true"
+    android:background="@android:color/white"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingEnd="@dimen/default_left_right_padding"
+    android:paddingLeft="@dimen/default_left_right_padding"
+    android:paddingRight="@dimen/default_left_right_padding"
+    android:paddingStart="@dimen/default_left_right_padding">
+
+    <ImageView
+        android:id="@+id/ivSearchCategoryImage"
+        android:layout_width="wrap_content"
+        android:layout_height="18dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/ic_feedpeers"/>
+
+    <TextView
+        android:id="@+id/tvSearchCategoryText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/search_category_people"
+        android:textAllCaps="true"
+        android:fontFamily="sans-serif"
+        android:textColor="@color/app_dark_text_color"
+        android:textSize="14sp"/>
+
+</LinearLayout>

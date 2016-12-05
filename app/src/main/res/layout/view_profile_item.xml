@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/llProfileRow"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/profile_item_row_height"
+    android:background="@android:color/white"
+    android:paddingEnd="@dimen/default_left_right_padding"
+    android:paddingLeft="@dimen/default_left_right_padding"
+    android:paddingRight="@dimen/default_left_right_padding"
+    android:paddingStart="@dimen/default_left_right_padding"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+
+    <com.rhlabs.circle.views.CircleImageView
+        android:id="@+id/civProfileImageView"
+        android:layout_width="@dimen/profile_item_image_width_height"
+        android:layout_height="@dimen/profile_item_image_width_height"
+        android:layout_marginEnd="@dimen/profile_image_interitem_margin"
+        android:layout_marginRight="@dimen/profile_image_interitem_margin" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvProfileName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:text="@string/default_profile_name"
+            android:textColor="@color/app_dark_text_color"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/tvProfileSecondaryInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:paddingTop="4dp"
+            android:text="@string/default_profile_secondary_text"
+            android:textColor="@color/app_dark_text_color_secondary_info"
+            android:textSize="15sp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

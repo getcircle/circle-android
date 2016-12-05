@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:background="@android:color/white"
+              android:gravity="center"
+              android:paddingTop="10dp"
+              android:paddingBottom="10dp"
+              android:paddingEnd="@dimen/default_left_right_padding"
+              android:paddingLeft="@dimen/default_left_right_padding"
+              android:paddingRight="@dimen/default_left_right_padding"
+              android:paddingStart="@dimen/default_left_right_padding"
+              android:layout_height="@dimen/key_value_data_row_height">
+
+    <TextView
+        tools:text="EMAIL"
+        android:id="@+id/tvKeyNameLabel"
+        android:textColor="@color/app_dark_text_color_secondary_info"
+        android:layout_width="wrap_content"
+        android:textAllCaps="true"
+        android:fontFamily="sans-serif"
+        android:textSize="14sp"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        tools:text="ravirani@gmail.com"
+        android:id="@+id/tvKeyValueText"
+        android:textColor="@color/app_dark_text_color"
+        android:gravity="right"
+        android:fontFamily="sans-serif"
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:textSize="16sp"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
